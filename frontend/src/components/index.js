@@ -1,7 +1,11 @@
-import React from 'react'
-
-export const index = () => {
-  return (
-    <div>index</div>
-  )
-}
+export { default as Header } from './ui/Header';
+export { default as HeroSection } from './ui/HeaderSection';
+export { default as ImageCarousel } from './ui/ImageCarousel';
+export { default as CategoriesSection } from './ui/CategoriesSection';
+export { default as ProductListings } from './ui/ProductListings';
+export { default as MainImage } from './ui/MainImage';
+export { default as InfoPanel } from './ui/InfoPanel';
+export { default as ImageGallery } from './ui/ImageGallery';
+export { default as AddImages } from './ui/AddImages';
+export { default as ProductDescription } from './ui/ProductDescription';
+export { default as PreviousListings } from './ui/PreviousListings';

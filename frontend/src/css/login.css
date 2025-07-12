@@ -1,0 +1,101 @@
+.login-container {
+  background: #f9f9f5;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Sen', sans-serif;
+}
+
+.login-card {
+  background: white;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+}
+
+.login-label {
+  font-weight: 600;
+  margin-bottom: 50px;
+  font-size: 0.95rem;
+}
+
+.login-input .MuiOutlinedInput-root {
+  border-radius: 0.75rem;
+  background: #f1ede7;
+}
+
+.login-input {
+  margin-bottom: 1.5rem;
+}
+
+.login-link {
+  font-size: 0.85rem;
+  color: #5d8a53;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.login-link:hover {
+  text-decoration: underline;
+}
+
+.login-button {
+  background-color: #8ba96f;
+  color: white;
+  font-weight: 600;
+  padding: 0.75rem;
+  border-radius: 0.75rem;
+  margin-top: 0.5rem;
+  text-transform: none;
+}
+
+.login-button:hover {
+  background-color: #76995c;
+}
+
+.divider {
+  margin: 1.5rem 0;
+  text-align: center;
+}
+
+.divider-text {
+  font-size: 0.75rem;
+  color: #999;
+  text-transform: uppercase;
+  padding: 0 0.5rem;
+}
+
+.google-button {
+  background: transparent;
+  border: 1px solid #ccc;
+  border-radius: 0.75rem;
+  padding: 0.7rem;
+  font-weight: 500;
+  text-transform: none;
+  margin-bottom: 1rem;
+}
+
+.google-button:hover {
+  background-color: #f5f5f5;
+}
+
+.signup-text {
+  text-align: center;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.signup-link {
+  color: #5d8a53;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.signup-link:hover {
+  text-decoration: underline;
+}

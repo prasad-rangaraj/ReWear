@@ -1,0 +1,16 @@
+body {
+  font-family: 'Sen', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Hide scrollbar for all browsers */
+body {
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none;  /* IE 10+ */
+  overflow-y: scroll; /* still scrollable */
+}
+
+body::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Opera */
+}
