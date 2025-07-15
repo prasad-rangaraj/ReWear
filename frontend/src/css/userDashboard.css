@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: rgb(249, 249, 245);
+  color: rgb(0, 0, 0);
+}
+
+.dashboard-container {
+  padding: 2rem;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.profile-section,
+.listings-section,
+.purchases-section {
+  margin-top: 2rem;
+}
+
+.profile-card {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  align-items: center;
+  background-color: rgb(233, 242, 227);
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+.profile-picture {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: rgba(94, 126, 92, 0.941);
+}
+
+.profile-info {
+  flex: 1;
+  min-width: 200px;
+}
+
+.profile-stats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.stat-box {
+  background-color: rgb(241, 237, 231); 
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+}
+
+.description-box {
+  background-color: rgb(241, 237, 231);
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+  gap: 1rem;
+}
+
+.grid-item {
+  height: 150px;
+  background-color: rgb(233, 242, 227); 
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(6, 6, 6);
+  text-align: center;
+}
+.userDashboard-color{
+  color: rgb(93, 138, 83);
+}

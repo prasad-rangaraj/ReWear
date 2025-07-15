@@ -1,5 +1,5 @@
 import React from 'react'
-import '@fontsource/sen'; // Defaults to weight 400
+import '@fontsource/sen'; 
 
 import {BrowserRouter,Route,Routes} from 'react-router-dom';
 import Login from './pages/login';

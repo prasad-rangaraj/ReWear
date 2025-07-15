@@ -8,7 +8,7 @@ import {
   Divider,
 } from '@mui/material';
 import GoogleIcon from '@mui/icons-material/Google';
-import rewearLogo from '../assets/rewear.png'; // ✅ Adjust the path if needed
+import rewearLogo from '../assets/rewear.png';
 
 const Login = () => {
   const [email, setEmail] = useState('');
